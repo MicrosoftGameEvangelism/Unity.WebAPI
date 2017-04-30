@@ -1,0 +1,18 @@
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.deps.json
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.runtimeconfig.json
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.runtimeconfig.dev.json
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.dll
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.pdb
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.csprojResolveAssemblyReference.cache
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.AssemblyInfo.cs
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.dll
+c:\users\bi-kim\documents\visual studio 2017\Projects\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.pdb
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.deps.json
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.runtimeconfig.json
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.runtimeconfig.dev.json
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.dll
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\bin\Debug\netcoreapp1.1\Unity.WebAPI.pdb
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.AssemblyInfo.cs
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.dll
+C:\Users\bi-kim\Documents\Unity.WebAPI\Unity.WebAPI\obj\Debug\netcoreapp1.1\Unity.WebAPI.pdb
