@@ -13,7 +13,7 @@ RESTFul HTTP로 랭킹을 추가하고 보여주는 샘플입니다.
 
 코드 수정 없이 작동을 보려면 `ranktbl`이름으로 된 테이블이 필요하며 MySql.Data 패키지를 설치해주셔야 합니다.
 
-```
+``` SQL
 -- ranktbl 테이블을 만드는 SQL입니다.
 CREATE TABLE `<databaseName>`.`ranktbl` 
 ( 
@@ -22,4 +22,39 @@ CREATE TABLE `<databaseName>`.`ranktbl`
 )
 ENGINE = InnoDB DEFAULT
 CHARACTER SET = utf8;
+```
+MySqlConnection
+-------------
+``` C#
+using(MySqlConnection conn = new MySqlConnection(ConnectionString))
+{
+ //MySqlCommand Code...
+}
+```
+
+MySqlCommand
+-------------
+
+### SELECT
+ranktbl의 SCORE를 역순(descending)정렬하여 출력하는 커맨드입니다.
+``` C#
+MySqlCommand command = new MySqlCommand("SELECT * FROM ranktbl ORDER BY SCORE DESC", conn);
+using(MySqlDataReader reader = command.ExecuteReader())
+{
+  while(reader.Read())
+  {
+    list.Nickname = reader.GetString("nickname");
+    list.Score = reader.GetInt32("score");
+  }
+}
+```
+### INSERT
+ranktbl에 데이터 삽입(INSERT)하는 커맨드입니다.
+``` C#
+MySqlCommand command = new MySqlCommand("INSERT ranktbl(nickname, score) VALUES(@nickname, @score)", conn);
+command.Parameters.Add("@nickname", MySqlDbType.String);
+command.Parameters.Add("@score", MySqlDbType.Int32);
+command.Parameters["@nickname"].Value = nickname.ToString();
+command.Parameters["@score"].Value = score;
+command.ExcuteNonQuery();
 ```
